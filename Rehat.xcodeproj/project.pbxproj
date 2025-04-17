@@ -1,0 +1,1827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A0F0DC72C2A403F003BB41D /* ConfirmationModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F0DC62C2A403F003BB41D /* ConfirmationModal.swift */; };
+		8A2BC8812C251B2100544892 /* AppGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BC8802C251B2100544892 /* AppGroupManager.swift */; };
+		8A2BC8822C251B7400544892 /* AppGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BC8802C251B2100544892 /* AppGroupManager.swift */; };
+		AC39E8DB2C27D35B00AE2F6A /* LumiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E8DA2C27D35B00AE2F6A /* LumiApp.swift */; };
+		AC39E8DD2C27D35B00AE2F6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E8DC2C27D35B00AE2F6A /* ContentView.swift */; };
+		AC39E8DF2C27D35C00AE2F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39E8DE2C27D35C00AE2F6A /* Assets.xcassets */; };
+		AC39E8E22C27D35C00AE2F6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC39E8E12C27D35C00AE2F6A /* Preview Assets.xcassets */; };
+		AC39E8EC2C27D35C00AE2F6A /* Lumi_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E8EB2C27D35C00AE2F6A /* Lumi_Watch_AppTests.swift */; };
+		AC39E8F62C27D35C00AE2F6A /* Lumi_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E8F52C27D35C00AE2F6A /* Lumi_Watch_AppUITests.swift */; };
+		AC39E8F82C27D35C00AE2F6A /* Lumi_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E8F72C27D35C00AE2F6A /* Lumi_Watch_AppUITestsLaunchTests.swift */; };
+		AC39E8FB2C27D35C00AE2F6A /* Lumi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC39E8D82C27D35B00AE2F6A /* Lumi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC39E9072C27D39500AE2F6A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9062C27D39500AE2F6A /* HomeView.swift */; };
+		AC39E90A2C27D8BB00AE2F6A /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9092C27D8BB00AE2F6A /* CustomizeButton.swift */; };
+		AC39E90D2C27DEC200AE2F6A /* ColorSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E90C2C27DEC200AE2F6A /* ColorSetting.swift */; };
+		AC39E9142C27F89200AE2F6A /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9132C27F89200AE2F6A /* ButtonStyle.swift */; };
+		AC39E9182C28011F00AE2F6A /* RestIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9172C28011F00AE2F6A /* RestIn.swift */; };
+		AC39E91A2C28036000AE2F6A /* CustomizeReminderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9192C28036000AE2F6A /* CustomizeReminderButton.swift */; };
+		AC39E91C2C286F6900AE2F6A /* ReminderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E91B2C286F6900AE2F6A /* ReminderText.swift */; };
+		AC39E9212C28728A00AE2F6A /* LookAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9202C28728A00AE2F6A /* LookAround.swift */; };
+		AC39E9232C28C78200AE2F6A /* RestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9222C28C78200AE2F6A /* RestButton.swift */; };
+		AC39E9282C28D1BB00AE2F6A /* TimerRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E9272C28D1BB00AE2F6A /* TimerRest.swift */; };
+		AC39E92D2C28D4A800AE2F6A /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39E92C2C28D4A800AE2F6A /* Reward.swift */; };
+		AC39E9312C2A65F700AE2F6A /* ModelGua.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC39E92E2C2A65F700AE2F6A /* ModelGua.xcdatamodeld */; };
+		AC8F70632C2BCA29008C1021 /* FrogsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */; };
+		AC8F70642C2BCA29008C1021 /* FrogsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */; };
+		AC8F70652C2BCA29008C1021 /* FrogsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */; };
+		AC8F70662C2BCA29008C1021 /* FrogsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */; };
+		AC8F70672C2BCA29008C1021 /* FrogsSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */; };
+		C703831A2C2A7769001A2FCA /* BouncyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70383192C2A7769001A2FCA /* BouncyStyle.swift */; };
+		C703831C2C2A792E001A2FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703831B2C2A792E001A2FCA /* AppDelegate.swift */; };
+		C703831E2C2A7F8B001A2FCA /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703831D2C2A7F8B001A2FCA /* IconButton.swift */; };
+		C703831F2C2A7F8B001A2FCA /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703831D2C2A7F8B001A2FCA /* IconButton.swift */; };
+		C70383212C2A7FCB001A2FCA /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70383202C2A7FCB001A2FCA /* ImageButton.swift */; };
+		C70383222C2A7FCB001A2FCA /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70383202C2A7FCB001A2FCA /* ImageButton.swift */; };
+		C70383232C2A805A001A2FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71577E82C2128820023FC41 /* Assets.xcassets */; };
+		C70383252C2A834B001A2FCA /* ReminderLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70383242C2A834B001A2FCA /* ReminderLargeView.swift */; };
+		C70383262C2A834B001A2FCA /* ReminderLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70383242C2A834B001A2FCA /* ReminderLargeView.swift */; };
+		C703832A2C2ABF2D001A2FCA /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715779B2C2024750023FC41 /* NotificationManager.swift */; };
+		C703832C2C2ADBD3001A2FCA /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703832B2C2ADBD3001A2FCA /* HapticManager.swift */; };
+		C715779C2C2024750023FC41 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715779B2C2024750023FC41 /* NotificationManager.swift */; };
+		C71577DD2C2128810023FC41 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71577A62C20A64D0023FC41 /* WidgetKit.framework */; };
+		C71577DE2C2128810023FC41 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71577A82C20A64D0023FC41 /* SwiftUI.framework */; };
+		C71577E12C2128810023FC41 /* ReminderBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577E02C2128810023FC41 /* ReminderBundle.swift */; };
+		C71577E32C2128810023FC41 /* ReminderLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577E22C2128810023FC41 /* ReminderLiveActivity.swift */; };
+		C71577E92C2128820023FC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71577E82C2128820023FC41 /* Assets.xcassets */; };
+		C71577ED2C2128820023FC41 /* ReminderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C71577DC2C2128810023FC41 /* ReminderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C71577F12C2128E10023FC41 /* ReminderLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577E22C2128810023FC41 /* ReminderLiveActivity.swift */; };
+		C71577FB2C21F5200023FC41 /* ReminderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577FA2C21F5200023FC41 /* ReminderStatus.swift */; };
+		C71578062C2211840023FC41 /* ReminderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578002C220EB60023FC41 /* ReminderWidget.swift */; };
+		C71578072C2211970023FC41 /* ReminderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577F42C21ECBA0023FC41 /* ReminderProvider.swift */; };
+		C71578082C2211990023FC41 /* ReminderEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577F62C21ECD80023FC41 /* ReminderEntry.swift */; };
+		C71578092C22119C0023FC41 /* ReminderIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577FC2C220AFD0023FC41 /* ReminderIntent.swift */; };
+		C715780B2C2211BB0023FC41 /* ReminderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577FA2C21F5200023FC41 /* ReminderStatus.swift */; };
+		C71578162C22E1160023FC41 /* ReminderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578152C22E1160023FC41 /* ReminderAttributes.swift */; };
+		C71578172C22E1160023FC41 /* ReminderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578152C22E1160023FC41 /* ReminderAttributes.swift */; };
+		C71578192C22E1F90023FC41 /* ReminderAttributesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578182C22E1F90023FC41 /* ReminderAttributesExtension.swift */; };
+		C715781A2C22E1F90023FC41 /* ReminderAttributesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578182C22E1F90023FC41 /* ReminderAttributesExtension.swift */; };
+		C715781C2C22E6F10023FC41 /* ReminderLAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715781B2C22E6F10023FC41 /* ReminderLAManager.swift */; };
+		C715781D2C22E6F10023FC41 /* ReminderLAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715781B2C22E6F10023FC41 /* ReminderLAManager.swift */; };
+		C715781F2C22F08D0023FC41 /* ReminderLAIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715781E2C22F08D0023FC41 /* ReminderLAIntent.swift */; };
+		C71578202C22F08D0023FC41 /* ReminderLAIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715781E2C22F08D0023FC41 /* ReminderLAIntent.swift */; };
+		C71578222C2338590023FC41 /* ReminderTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578212C2338590023FC41 /* ReminderTask.swift */; };
+		C71578232C2338590023FC41 /* ReminderTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578212C2338590023FC41 /* ReminderTask.swift */; };
+		C71578402C23F5EC0023FC41 /* ChallengeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C715783C2C23F5EC0023FC41 /* ChallengeScene.sks */; };
+		C71578422C23F5EC0023FC41 /* StoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C715783E2C23F5EC0023FC41 /* StoreScene.sks */; };
+		C71578432C23F5EC0023FC41 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C715783F2C23F5EC0023FC41 /* Actions.sks */; };
+		C715784C2C23F6510023FC41 /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578442C23F6510023FC41 /* ScreenShot.swift */; };
+		C715784D2C23F6510023FC41 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578452C23F6510023FC41 /* MainView.swift */; };
+		C715784E2C23F6510023FC41 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578462C23F6510023FC41 /* GameScene.swift */; };
+		C715784F2C23F6510023FC41 /* SpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578472C23F6510023FC41 /* SpriteKitView.swift */; };
+		C71578512C23F6510023FC41 /* ChallengeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578492C23F6510023FC41 /* ChallengeScene.swift */; };
+		C71578522C23F6510023FC41 /* GestureHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715784A2C23F6510023FC41 /* GestureHandling.swift */; };
+		C71578532C23F6510023FC41 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715784B2C23F6510023FC41 /* Currency.swift */; };
+		C71578562C23F6680023FC41 /* StorePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71578552C23F6680023FC41 /* StorePopup.swift */; };
+		C71AB0502C2919D60080904E /* StartStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB04E2C2918B80080904E /* StartStopButton.swift */; };
+		C71AB0512C2919EC0080904E /* StartStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB04E2C2918B80080904E /* StartStopButton.swift */; };
+		C71AB0532C2924900080904E /* FrogSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C71AB0522C2924900080904E /* FrogSound.mp3 */; };
+		C71AB0582C294BB20080904E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C71AB0572C294BB20080904E /* GameScene.sks */; };
+		C71AB0612C294C420080904E /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB05F2C294C420080904E /* PersistanceController.swift */; };
+		C71AB0622C294C420080904E /* SaveWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0602C294C420080904E /* SaveWorld.swift */; };
+		C71AB0692C297C140080904E /* ReminderWCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0682C297C140080904E /* ReminderWCDelegate.swift */; };
+		C71AB06B2C297DC60080904E /* ReminderWCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB06A2C297DC60080904E /* ReminderWCDelegate.swift */; };
+		C71AB06C2C29897A0080904E /* ReminderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71577FA2C21F5200023FC41 /* ReminderStatus.swift */; };
+		C71AB06F2C29B8CF0080904E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB06E2C29B8CF0080904E /* HomeViewModel.swift */; };
+		C71AB0712C29B9030080904E /* HomeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0702C29B9030080904E /* HomeEvent.swift */; };
+		C71AB0732C29B9570080904E /* ReminderDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0722C29B9570080904E /* ReminderDefaults.swift */; };
+		C71AB0762C29C42D0080904E /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0752C29C42D0080904E /* AppViewModel.swift */; };
+		C71AB0792C29C9630080904E /* RestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB0782C29C9630080904E /* RestViewModel.swift */; };
+		C71AB07B2C29C9960080904E /* RestSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB07A2C29C9960080904E /* RestSection.swift */; };
+		C71AB07D2C29C9A40080904E /* RestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB07C2C29C9A40080904E /* RestEvent.swift */; };
+		C71AB07F2C29CB890080904E /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AB07E2C29CB890080904E /* RestView.swift */; };
+		C71AB0832C29D2BA0080904E /* ClockTick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C71AB0822C29D2BA0080904E /* ClockTick.mp3 */; };
+		C72B9ED52C2428E6003D13A6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9ED42C2428E6003D13A6 /* MainViewModel.swift */; };
+		C72B9ED72C24293D003D13A6 /* MainEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9ED62C24293D003D13A6 /* MainEvent.swift */; };
+		C72B9ED92C242F8E003D13A6 /* ReminderOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9ED82C242F8E003D13A6 /* ReminderOverlay.swift */; };
+		C72B9EDC2C243193003D13A6 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EDB2C243193003D13A6 /* DefaultButton.swift */; };
+		C72B9EDF2C243DD3003D13A6 /* RestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EDE2C243DD3003D13A6 /* RestView.swift */; };
+		C72B9EE12C243DDB003D13A6 /* RestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EE02C243DDB003D13A6 /* RestViewModel.swift */; };
+		C72B9EE32C243E10003D13A6 /* RestEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EE22C243E10003D13A6 /* RestEvent.swift */; };
+		C72B9EE52C243ECF003D13A6 /* RestSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EE42C243ECF003D13A6 /* RestSection.swift */; };
+		C72B9EE82C2440AE003D13A6 /* RestCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EE72C2440AE003D13A6 /* RestCircleButton.swift */; };
+		C72B9EE92C24487C003D13A6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C715779B2C2024750023FC41 /* NotificationManager.swift */; };
+		C72B9EF02C247C5C003D13A6 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EEF2C247C5C003D13A6 /* RewardView.swift */; };
+		C72B9EF32C248F89003D13A6 /* ClockTick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C72B9EF22C248F89003D13A6 /* ClockTick.mp3 */; };
+		C72B9EF52C250E95003D13A6 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EF42C250E95003D13A6 /* CurrencyView.swift */; };
+		C73180352C1950F300E45746 /* RehatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73180342C1950F300E45746 /* RehatApp.swift */; };
+		C73180392C1950F500E45746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73180382C1950F500E45746 /* Assets.xcassets */; };
+		C731803C2C1950F500E45746 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C731803B2C1950F500E45746 /* Preview Assets.xcassets */; };
+		C740233C2C2BB6B900EF1AF1 /* Tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C740233B2C2BB6B900EF1AF1 /* Tick.mp3 */; };
+		C740233E2C2BB6BD00EF1AF1 /* Tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C740233D2C2BB6BD00EF1AF1 /* Tick.mp3 */; };
+		C74023402C2BC36B00EF1AF1 /* Kwebek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C740233F2C2BC36B00EF1AF1 /* Kwebek.mp3 */; };
+		C75263942C25F51300612DD2 /* BoardingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263932C25F51300612DD2 /* BoardingDefaults.swift */; };
+		C752639F2C25FA7000612DD2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752639E2C25FA7000612DD2 /* WelcomeView.swift */; };
+		C75263A12C25FA7900612DD2 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263A02C25FA7900612DD2 /* WelcomeViewModel.swift */; };
+		C75263A32C25FA8000612DD2 /* WelcomeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263A22C25FA8000612DD2 /* WelcomeEvent.swift */; };
+		C75263A52C25FA8E00612DD2 /* TwentyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263A42C25FA8E00612DD2 /* TwentyView.swift */; };
+		C75263A72C25FA9900612DD2 /* TwentyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263A62C25FA9900612DD2 /* TwentyViewModel.swift */; };
+		C75263A92C25FAA000612DD2 /* TwentyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263A82C25FAA000612DD2 /* TwentyEvent.swift */; };
+		C75263AB2C25FACC00612DD2 /* BoardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263AA2C25FACC00612DD2 /* BoardingButton.swift */; };
+		C75263AD2C25FAF200612DD2 /* BoardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263AC2C25FAF200612DD2 /* BoardingContent.swift */; };
+		C75263B02C25FC0700612DD2 /* BoardingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263AF2C25FC0700612DD2 /* BoardingText.swift */; };
+		C75263B12C2601F000612DD2 /* BoardingDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263932C25F51300612DD2 /* BoardingDefaults.swift */; };
+		C75263B32C2607E100612DD2 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263B22C2607E100612DD2 /* AppViewModel.swift */; };
+		C75263B62C26FF0500612DD2 /* RewardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263B52C26FF0500612DD2 /* RewardItem.swift */; };
+		C75263BB2C27341500612DD2 /* TutorialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263BA2C27341500612DD2 /* TutorialCard.swift */; };
+		C75263BD2C2738A900612DD2 /* TutorialOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263BC2C2738A900612DD2 /* TutorialOverlay.swift */; };
+		C75263BF2C273A3E00612DD2 /* ActionTutorialOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263BE2C273A3E00612DD2 /* ActionTutorialOverlay.swift */; };
+		C75263C12C273E8400612DD2 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263C02C273E8400612DD2 /* TutorialSection.swift */; };
+		C75263C42C273FDD00612DD2 /* MainText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263C32C273FDD00612DD2 /* MainText.swift */; };
+		C75263C62C27C22C00612DD2 /* FrogBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263C52C27C22C00612DD2 /* FrogBackground.swift */; };
+		C75263CA2C28806200612DD2 /* PopUpBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263C92C28806200612DD2 /* PopUpBackground.swift */; };
+		C75263CD2C2880CB00612DD2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263CC2C2880CB00612DD2 /* ViewExtension.swift */; };
+		C75263D32C2881DB00612DD2 /* AlertOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75263D22C2881DB00612DD2 /* AlertOverlay.swift */; };
+		C7A7E81D2C2BAFDF004FA9CC /* TickSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7A7E81C2C2BAFDF004FA9CC /* TickSound.mp3 */; };
+		C7A7E81F2C2BAFEA004FA9CC /* TickSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7A7E81E2C2BAFEA004FA9CC /* TickSound.mp3 */; };
+		C7A7E8212C2BAFF6004FA9CC /* FrogSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7A7E8202C2BAFF6004FA9CC /* FrogSound.mp3 */; };
+		C7F01D9B2C288D6C00D6EB30 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01D9A2C288D6C00D6EB30 /* DateExtension.swift */; };
+		C7F01D9C2C288D6F00D6EB30 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01D9A2C288D6C00D6EB30 /* DateExtension.swift */; };
+		C7F01DA02C288ECF00D6EB30 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72B9EDB2C243193003D13A6 /* DefaultButton.swift */; };
+		C7F01DA12C2891D600D6EB30 /* ReminderSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01D9E2C288DFF00D6EB30 /* ReminderSmallView.swift */; };
+		C7F01DA22C28924600D6EB30 /* ReminderSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01D9E2C288DFF00D6EB30 /* ReminderSmallView.swift */; };
+		C7F01DA52C28947900D6EB30 /* IntentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01DA42C28947900D6EB30 /* IntentButton.swift */; };
+		C7F01DA62C2894D900D6EB30 /* IntentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01DA42C28947900D6EB30 /* IntentButton.swift */; };
+		C7F01DA82C2905E400D6EB30 /* ReminderMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01DA72C2905E400D6EB30 /* ReminderMediumView.swift */; };
+		C7F01DA92C29093A00D6EB30 /* ReminderMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F01DA72C2905E400D6EB30 /* ReminderMediumView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC39E8E82C27D35C00AE2F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73180292C1950F300E45746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39E8D72C27D35B00AE2F6A;
+			remoteInfo = "Lumi Watch App";
+		};
+		AC39E8F22C27D35C00AE2F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73180292C1950F300E45746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39E8D72C27D35B00AE2F6A;
+			remoteInfo = "Lumi Watch App";
+		};
+		AC39E8F92C27D35C00AE2F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73180292C1950F300E45746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39E8D72C27D35B00AE2F6A;
+			remoteInfo = "Lumi Watch App";
+		};
+		C71577EB2C2128820023FC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73180292C1950F300E45746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71577DB2C2128810023FC41;
+			remoteInfo = ReminderExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC39E8FC2C27D35C00AE2F6A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AC39E8FB2C27D35C00AE2F6A /* Lumi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71577B82C20A64E0023FC41 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C71577ED2C2128820023FC41 /* ReminderExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A0F0DC62C2A403F003BB41D /* ConfirmationModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModal.swift; sourceTree = "<group>"; };
+		8A2BC8802C251B2100544892 /* AppGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupManager.swift; sourceTree = "<group>"; };
+		AC1604F92C2BB7F10084CF96 /* Lumi-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lumi-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AC39E8D82C27D35B00AE2F6A /* Lumi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lumi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39E8DA2C27D35B00AE2F6A /* LumiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiApp.swift; sourceTree = "<group>"; };
+		AC39E8DC2C27D35B00AE2F6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC39E8DE2C27D35C00AE2F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC39E8E12C27D35C00AE2F6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC39E8E72C27D35C00AE2F6A /* Lumi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lumi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39E8EB2C27D35C00AE2F6A /* Lumi_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lumi_Watch_AppTests.swift; sourceTree = "<group>"; };
+		AC39E8F12C27D35C00AE2F6A /* Lumi Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lumi Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC39E8F52C27D35C00AE2F6A /* Lumi_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lumi_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		AC39E8F72C27D35C00AE2F6A /* Lumi_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lumi_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC39E9062C27D39500AE2F6A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC39E9092C27D8BB00AE2F6A /* CustomizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
+		AC39E90C2C27DEC200AE2F6A /* ColorSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSetting.swift; sourceTree = "<group>"; };
+		AC39E9132C27F89200AE2F6A /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		AC39E9172C28011F00AE2F6A /* RestIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestIn.swift; sourceTree = "<group>"; };
+		AC39E9192C28036000AE2F6A /* CustomizeReminderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeReminderButton.swift; sourceTree = "<group>"; };
+		AC39E91B2C286F6900AE2F6A /* ReminderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderText.swift; sourceTree = "<group>"; };
+		AC39E9202C28728A00AE2F6A /* LookAround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAround.swift; sourceTree = "<group>"; };
+		AC39E9222C28C78200AE2F6A /* RestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestButton.swift; sourceTree = "<group>"; };
+		AC39E9272C28D1BB00AE2F6A /* TimerRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRest.swift; sourceTree = "<group>"; };
+		AC39E92C2C28D4A800AE2F6A /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		AC39E9302C2A65F700AE2F6A /* ModelGua.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelGua.xcdatamodel; sourceTree = "<group>"; };
+		AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FrogsSound.mp3; sourceTree = "<group>"; };
+		C70383192C2A7769001A2FCA /* BouncyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyStyle.swift; sourceTree = "<group>"; };
+		C703831B2C2A792E001A2FCA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C703831D2C2A7F8B001A2FCA /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		C70383202C2A7FCB001A2FCA /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		C70383242C2A834B001A2FCA /* ReminderLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderLargeView.swift; sourceTree = "<group>"; };
+		C703832B2C2ADBD3001A2FCA /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		C715779B2C2024750023FC41 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		C71577A62C20A64D0023FC41 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C71577A82C20A64D0023FC41 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C71577D72C20B13C0023FC41 /* Rehat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rehat.entitlements; sourceTree = "<group>"; };
+		C71577DC2C2128810023FC41 /* ReminderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReminderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71577E02C2128810023FC41 /* ReminderBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBundle.swift; sourceTree = "<group>"; };
+		C71577E22C2128810023FC41 /* ReminderLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderLiveActivity.swift; sourceTree = "<group>"; };
+		C71577E82C2128820023FC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71577EA2C2128820023FC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71577F22C2128FF0023FC41 /* ReminderExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReminderExtension.entitlements; sourceTree = "<group>"; };
+		C71577F42C21ECBA0023FC41 /* ReminderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderProvider.swift; sourceTree = "<group>"; };
+		C71577F62C21ECD80023FC41 /* ReminderEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEntry.swift; sourceTree = "<group>"; };
+		C71577FA2C21F5200023FC41 /* ReminderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatus.swift; sourceTree = "<group>"; };
+		C71577FC2C220AFD0023FC41 /* ReminderIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderIntent.swift; sourceTree = "<group>"; };
+		C71578002C220EB60023FC41 /* ReminderWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWidget.swift; sourceTree = "<group>"; };
+		C71578152C22E1160023FC41 /* ReminderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAttributes.swift; sourceTree = "<group>"; };
+		C71578182C22E1F90023FC41 /* ReminderAttributesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAttributesExtension.swift; sourceTree = "<group>"; };
+		C715781B2C22E6F10023FC41 /* ReminderLAManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderLAManager.swift; sourceTree = "<group>"; };
+		C715781E2C22F08D0023FC41 /* ReminderLAIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderLAIntent.swift; sourceTree = "<group>"; };
+		C71578212C2338590023FC41 /* ReminderTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTask.swift; sourceTree = "<group>"; };
+		C71578242C233A910023FC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C715783C2C23F5EC0023FC41 /* ChallengeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ChallengeScene.sks; sourceTree = "<group>"; };
+		C715783E2C23F5EC0023FC41 /* StoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StoreScene.sks; sourceTree = "<group>"; };
+		C715783F2C23F5EC0023FC41 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C71578442C23F6510023FC41 /* ScreenShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShot.swift; sourceTree = "<group>"; };
+		C71578452C23F6510023FC41 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C71578462C23F6510023FC41 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C71578472C23F6510023FC41 /* SpriteKitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKitView.swift; sourceTree = "<group>"; };
+		C71578492C23F6510023FC41 /* ChallengeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeScene.swift; sourceTree = "<group>"; };
+		C715784A2C23F6510023FC41 /* GestureHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureHandling.swift; sourceTree = "<group>"; };
+		C715784B2C23F6510023FC41 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		C71578552C23F6680023FC41 /* StorePopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorePopup.swift; sourceTree = "<group>"; };
+		C71AB04E2C2918B80080904E /* StartStopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopButton.swift; sourceTree = "<group>"; };
+		C71AB0522C2924900080904E /* FrogSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FrogSound.mp3; sourceTree = "<group>"; };
+		C71AB0572C294BB20080904E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C71AB05F2C294C420080904E /* PersistanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
+		C71AB0602C294C420080904E /* SaveWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveWorld.swift; sourceTree = "<group>"; };
+		C71AB0682C297C140080904E /* ReminderWCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWCDelegate.swift; sourceTree = "<group>"; };
+		C71AB06A2C297DC60080904E /* ReminderWCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWCDelegate.swift; sourceTree = "<group>"; };
+		C71AB06E2C29B8CF0080904E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C71AB0702C29B9030080904E /* HomeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEvent.swift; sourceTree = "<group>"; };
+		C71AB0722C29B9570080904E /* ReminderDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDefaults.swift; sourceTree = "<group>"; };
+		C71AB0752C29C42D0080904E /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C71AB0782C29C9630080904E /* RestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewModel.swift; sourceTree = "<group>"; };
+		C71AB07A2C29C9960080904E /* RestSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSection.swift; sourceTree = "<group>"; };
+		C71AB07C2C29C9A40080904E /* RestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestEvent.swift; sourceTree = "<group>"; };
+		C71AB07E2C29CB890080904E /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		C71AB0822C29D2BA0080904E /* ClockTick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ClockTick.mp3; sourceTree = "<group>"; };
+		C72B9ED42C2428E6003D13A6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C72B9ED62C24293D003D13A6 /* MainEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEvent.swift; sourceTree = "<group>"; };
+		C72B9ED82C242F8E003D13A6 /* ReminderOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderOverlay.swift; sourceTree = "<group>"; };
+		C72B9EDB2C243193003D13A6 /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		C72B9EDE2C243DD3003D13A6 /* RestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestView.swift; sourceTree = "<group>"; };
+		C72B9EE02C243DDB003D13A6 /* RestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewModel.swift; sourceTree = "<group>"; };
+		C72B9EE22C243E10003D13A6 /* RestEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestEvent.swift; sourceTree = "<group>"; };
+		C72B9EE42C243ECF003D13A6 /* RestSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSection.swift; sourceTree = "<group>"; };
+		C72B9EE72C2440AE003D13A6 /* RestCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCircleButton.swift; sourceTree = "<group>"; };
+		C72B9EEF2C247C5C003D13A6 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		C72B9EF22C248F89003D13A6 /* ClockTick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ClockTick.mp3; sourceTree = "<group>"; };
+		C72B9EF42C250E95003D13A6 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		C73180312C1950F300E45746 /* Rehat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rehat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73180342C1950F300E45746 /* RehatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehatApp.swift; sourceTree = "<group>"; };
+		C73180382C1950F500E45746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C731803B2C1950F500E45746 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C740233B2C2BB6B900EF1AF1 /* Tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tick.mp3; sourceTree = "<group>"; };
+		C740233D2C2BB6BD00EF1AF1 /* Tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tick.mp3; sourceTree = "<group>"; };
+		C740233F2C2BC36B00EF1AF1 /* Kwebek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kwebek.mp3; sourceTree = "<group>"; };
+		C75263932C25F51300612DD2 /* BoardingDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingDefaults.swift; sourceTree = "<group>"; };
+		C752639E2C25FA7000612DD2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C75263A02C25FA7900612DD2 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		C75263A22C25FA8000612DD2 /* WelcomeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeEvent.swift; sourceTree = "<group>"; };
+		C75263A42C25FA8E00612DD2 /* TwentyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyView.swift; sourceTree = "<group>"; };
+		C75263A62C25FA9900612DD2 /* TwentyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyViewModel.swift; sourceTree = "<group>"; };
+		C75263A82C25FAA000612DD2 /* TwentyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyEvent.swift; sourceTree = "<group>"; };
+		C75263AA2C25FACC00612DD2 /* BoardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingButton.swift; sourceTree = "<group>"; };
+		C75263AC2C25FAF200612DD2 /* BoardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingContent.swift; sourceTree = "<group>"; };
+		C75263AF2C25FC0700612DD2 /* BoardingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingText.swift; sourceTree = "<group>"; };
+		C75263B22C2607E100612DD2 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C75263B52C26FF0500612DD2 /* RewardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardItem.swift; sourceTree = "<group>"; };
+		C75263BA2C27341500612DD2 /* TutorialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCard.swift; sourceTree = "<group>"; };
+		C75263BC2C2738A900612DD2 /* TutorialOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialOverlay.swift; sourceTree = "<group>"; };
+		C75263BE2C273A3E00612DD2 /* ActionTutorialOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTutorialOverlay.swift; sourceTree = "<group>"; };
+		C75263C02C273E8400612DD2 /* TutorialSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
+		C75263C32C273FDD00612DD2 /* MainText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainText.swift; sourceTree = "<group>"; };
+		C75263C52C27C22C00612DD2 /* FrogBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogBackground.swift; sourceTree = "<group>"; };
+		C75263C92C28806200612DD2 /* PopUpBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpBackground.swift; sourceTree = "<group>"; };
+		C75263CC2C2880CB00612DD2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		C75263D22C2881DB00612DD2 /* AlertOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertOverlay.swift; sourceTree = "<group>"; };
+		C7A7E81C2C2BAFDF004FA9CC /* TickSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TickSound.mp3; sourceTree = "<group>"; };
+		C7A7E81E2C2BAFEA004FA9CC /* TickSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TickSound.mp3; sourceTree = "<group>"; };
+		C7A7E8202C2BAFF6004FA9CC /* FrogSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FrogSound.mp3; sourceTree = "<group>"; };
+		C7F01D9A2C288D6C00D6EB30 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C7F01D9E2C288DFF00D6EB30 /* ReminderSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSmallView.swift; sourceTree = "<group>"; };
+		C7F01DA42C28947900D6EB30 /* IntentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentButton.swift; sourceTree = "<group>"; };
+		C7F01DA72C2905E400D6EB30 /* ReminderMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMediumView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC39E8D52C27D35B00AE2F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8E42C27D35C00AE2F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8EE2C27D35C00AE2F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71577D92C2128810023FC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71577DE2C2128810023FC41 /* SwiftUI.framework in Frameworks */,
+				C71577DD2C2128810023FC41 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C731802E2C1950F300E45746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A9901B92C195409007D2888 /* SKScene */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB0572C294BB20080904E /* GameScene.sks */,
+				C715783F2C23F5EC0023FC41 /* Actions.sks */,
+				C715783C2C23F5EC0023FC41 /* ChallengeScene.sks */,
+				C715783E2C23F5EC0023FC41 /* StoreScene.sks */,
+			);
+			path = SKScene;
+			sourceTree = "<group>";
+		};
+		8A9901BE2C195421007D2888 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C75263D12C2881C800612DD2 /* Components */,
+				C75263C22C273FD600612DD2 /* Utils */,
+				C71578542C23F65C0023FC41 /* StorePopUpView */,
+				C71578492C23F6510023FC41 /* ChallengeScene.swift */,
+				C715784B2C23F6510023FC41 /* Currency.swift */,
+				C71578462C23F6510023FC41 /* GameScene.swift */,
+				C715784A2C23F6510023FC41 /* GestureHandling.swift */,
+				C71578452C23F6510023FC41 /* MainView.swift */,
+				C71578442C23F6510023FC41 /* ScreenShot.swift */,
+				C71578472C23F6510023FC41 /* SpriteKitView.swift */,
+				C72B9ED42C2428E6003D13A6 /* MainViewModel.swift */,
+				C72B9ED62C24293D003D13A6 /* MainEvent.swift */,
+				C75263C02C273E8400612DD2 /* TutorialSection.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC39E8D92C27D35B00AE2F6A /* Lumi Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AC1604F92C2BB7F10084CF96 /* Lumi-Watch-App-Info.plist */,
+				C71AB0802C29D2A80080904E /* Resources */,
+				AC39E90B2C27DE9B00AE2F6A /* Shared */,
+				AC39E9082C27D3A000AE2F6A /* Home */,
+				AC39E91D2C2870E100AE2F6A /* Rest */,
+				AC39E9292C28D2E200AE2F6A /* Reward */,
+				AC39E8DA2C27D35B00AE2F6A /* LumiApp.swift */,
+				AC39E8DC2C27D35B00AE2F6A /* ContentView.swift */,
+				C71AB0752C29C42D0080904E /* AppViewModel.swift */,
+				AC39E8DE2C27D35C00AE2F6A /* Assets.xcassets */,
+				AC39E8E02C27D35C00AE2F6A /* Preview Content */,
+			);
+			path = "Lumi Watch App";
+			sourceTree = "<group>";
+		};
+		AC39E8E02C27D35C00AE2F6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E8E12C27D35C00AE2F6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC39E8EA2C27D35C00AE2F6A /* Lumi Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E8EB2C27D35C00AE2F6A /* Lumi_Watch_AppTests.swift */,
+			);
+			path = "Lumi Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AC39E8F42C27D35C00AE2F6A /* Lumi Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E8F52C27D35C00AE2F6A /* Lumi_Watch_AppUITests.swift */,
+				AC39E8F72C27D35C00AE2F6A /* Lumi_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Lumi Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		AC39E9082C27D3A000AE2F6A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB06D2C29B8C70080904E /* ViewModel */,
+				AC39E9162C28009100AE2F6A /* Resources */,
+				AC39E9152C28004200AE2F6A /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC39E90B2C27DE9B00AE2F6A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E90C2C27DEC200AE2F6A /* ColorSetting.swift */,
+				C71AB06A2C297DC60080904E /* ReminderWCDelegate.swift */,
+				C71AB0722C29B9570080904E /* ReminderDefaults.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AC39E90E2C27DEEE00AE2F6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E9062C27D39500AE2F6A /* HomeView.swift */,
+				AC39E9172C28011F00AE2F6A /* RestIn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC39E90F2C27E07500AE2F6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E9192C28036000AE2F6A /* CustomizeReminderButton.swift */,
+				AC39E9092C27D8BB00AE2F6A /* CustomizeButton.swift */,
+				AC39E91B2C286F6900AE2F6A /* ReminderText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC39E9152C28004200AE2F6A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E90F2C27E07500AE2F6A /* Components */,
+				AC39E90E2C27DEEE00AE2F6A /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AC39E9162C28009100AE2F6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E9132C27F89200AE2F6A /* ButtonStyle.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC39E91D2C2870E100AE2F6A /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB0772C29C9510080904E /* ViewModel */,
+				AC39E91F2C28725200AE2F6A /* LookAround */,
+				AC39E91E2C28721600AE2F6A /* StartRest */,
+				C71AB07E2C29CB890080904E /* RestView.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		AC39E91E2C28721600AE2F6A /* StartRest */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E9222C28C78200AE2F6A /* RestButton.swift */,
+			);
+			path = StartRest;
+			sourceTree = "<group>";
+		};
+		AC39E91F2C28725200AE2F6A /* LookAround */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E9202C28728A00AE2F6A /* LookAround.swift */,
+				AC39E9272C28D1BB00AE2F6A /* TimerRest.swift */,
+			);
+			path = LookAround;
+			sourceTree = "<group>";
+		};
+		AC39E9292C28D2E200AE2F6A /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E92B2C28D34000AE2F6A /* Presentation */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		AC39E92B2C28D34000AE2F6A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E92C2C28D4A800AE2F6A /* Reward.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C715779A2C2024650023FC41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C703831B2C2A792E001A2FCA /* AppDelegate.swift */,
+				C75263932C25F51300612DD2 /* BoardingDefaults.swift */,
+				C715779B2C2024750023FC41 /* NotificationManager.swift */,
+				C71577FA2C21F5200023FC41 /* ReminderStatus.swift */,
+				C71578212C2338590023FC41 /* ReminderTask.swift */,
+				8A2BC8802C251B2100544892 /* AppGroupManager.swift */,
+				C7F01D9A2C288D6C00D6EB30 /* DateExtension.swift */,
+				C71AB0682C297C140080904E /* ReminderWCDelegate.swift */,
+				C703832B2C2ADBD3001A2FCA /* HapticManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C71577A52C20A64D0023FC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71577A62C20A64D0023FC41 /* WidgetKit.framework */,
+				C71577A82C20A64D0023FC41 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71577DF2C2128810023FC41 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C71578142C227EB90023FC41 /* LiveActivty */,
+				C71578032C2211650023FC41 /* Widget */,
+				C71577E02C2128810023FC41 /* ReminderBundle.swift */,
+				C71577E82C2128820023FC41 /* Assets.xcassets */,
+				C71577EA2C2128820023FC41 /* Info.plist */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		C71578032C2211650023FC41 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C7F01DA32C28946A00D6EB30 /* Components */,
+				C7F01D9D2C288DE800D6EB30 /* Views */,
+				C71577F42C21ECBA0023FC41 /* ReminderProvider.swift */,
+				C71577F62C21ECD80023FC41 /* ReminderEntry.swift */,
+				C71577FC2C220AFD0023FC41 /* ReminderIntent.swift */,
+				C71578002C220EB60023FC41 /* ReminderWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		C71578142C227EB90023FC41 /* LiveActivty */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB04D2C2918740080904E /* Components */,
+				C71578152C22E1160023FC41 /* ReminderAttributes.swift */,
+				C71578182C22E1F90023FC41 /* ReminderAttributesExtension.swift */,
+				C71577E22C2128810023FC41 /* ReminderLiveActivity.swift */,
+				C715781B2C22E6F10023FC41 /* ReminderLAManager.swift */,
+				C715781E2C22F08D0023FC41 /* ReminderLAIntent.swift */,
+			);
+			path = LiveActivty;
+			sourceTree = "<group>";
+		};
+		C71578542C23F65C0023FC41 /* StorePopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				C71578552C23F6680023FC41 /* StorePopup.swift */,
+			);
+			path = StorePopUpView;
+			sourceTree = "<group>";
+		};
+		C71AB04D2C2918740080904E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB04E2C2918B80080904E /* StartStopButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C71AB05B2C294C2E0080904E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AC39E92E2C2A65F700AE2F6A /* ModelGua.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C71AB06D2C29B8C70080904E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB0702C29B9030080904E /* HomeEvent.swift */,
+				C71AB06E2C29B8CF0080904E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C71AB0772C29C9510080904E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB0782C29C9630080904E /* RestViewModel.swift */,
+				C71AB07A2C29C9960080904E /* RestSection.swift */,
+				C71AB07C2C29C9A40080904E /* RestEvent.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C71AB0802C29D2A80080904E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB0812C29D2AC0080904E /* SoundEffect */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C71AB0812C29D2AC0080904E /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C740233D2C2BB6BD00EF1AF1 /* Tick.mp3 */,
+				C7A7E8202C2BAFF6004FA9CC /* FrogSound.mp3 */,
+				C7A7E81E2C2BAFEA004FA9CC /* TickSound.mp3 */,
+				C71AB0822C29D2BA0080904E /* ClockTick.mp3 */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		C72B9EDA2C24318A003D13A6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C75263D02C28813000612DD2 /* Modifiers */,
+				C75263CF2C28812800612DD2 /* Extensions */,
+				C75263CE2C28812300612DD2 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C72B9EDD2C243CD1003D13A6 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				C72B9EE62C2440A4003D13A6 /* Components */,
+				C72B9EDE2C243DD3003D13A6 /* RestView.swift */,
+				C72B9EE02C243DDB003D13A6 /* RestViewModel.swift */,
+				C72B9EE22C243E10003D13A6 /* RestEvent.swift */,
+				C72B9EE42C243ECF003D13A6 /* RestSection.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		C72B9EE62C2440A4003D13A6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C72B9EE72C2440AE003D13A6 /* RestCircleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C72B9EEE2C247C51003D13A6 /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				C75263B42C26FE9100612DD2 /* Components */,
+				C72B9EEF2C247C5C003D13A6 /* RewardView.swift */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		C72B9EF12C248F80003D13A6 /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				C740233F2C2BC36B00EF1AF1 /* Kwebek.mp3 */,
+				C740233B2C2BB6B900EF1AF1 /* Tick.mp3 */,
+				AC8F70622C2BCA29008C1021 /* FrogsSound.mp3 */,
+				C71AB0522C2924900080904E /* FrogSound.mp3 */,
+				C72B9EF22C248F89003D13A6 /* ClockTick.mp3 */,
+				C7A7E81C2C2BAFDF004FA9CC /* TickSound.mp3 */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		C73180282C1950F300E45746 = {
+			isa = PBXGroup;
+			children = (
+				C71577F22C2128FF0023FC41 /* ReminderExtension.entitlements */,
+				C73180332C1950F300E45746 /* Rehat */,
+				C71577DF2C2128810023FC41 /* Reminder */,
+				AC39E8D92C27D35B00AE2F6A /* Lumi Watch App */,
+				AC39E8EA2C27D35C00AE2F6A /* Lumi Watch AppTests */,
+				AC39E8F42C27D35C00AE2F6A /* Lumi Watch AppUITests */,
+				C71577A52C20A64D0023FC41 /* Frameworks */,
+				C73180322C1950F300E45746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73180322C1950F300E45746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73180312C1950F300E45746 /* Rehat.app */,
+				C71577DC2C2128810023FC41 /* ReminderExtension.appex */,
+				AC39E8D82C27D35B00AE2F6A /* Lumi Watch App.app */,
+				AC39E8E72C27D35C00AE2F6A /* Lumi Watch AppTests.xctest */,
+				AC39E8F12C27D35C00AE2F6A /* Lumi Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73180332C1950F300E45746 /* Rehat */ = {
+			isa = PBXGroup;
+			children = (
+				C71578242C233A910023FC41 /* Info.plist */,
+				C71577D72C20B13C0023FC41 /* Rehat.entitlements */,
+				C715779A2C2024650023FC41 /* Utils */,
+				C73180442C1956B600E45746 /* Resources */,
+				C73180422C19569500E45746 /* Data */,
+				C73180432C19569C00E45746 /* Presentation */,
+				C73180342C1950F300E45746 /* RehatApp.swift */,
+				C75263B22C2607E100612DD2 /* AppViewModel.swift */,
+				C73180382C1950F500E45746 /* Assets.xcassets */,
+				C731803A2C1950F500E45746 /* Preview Content */,
+			);
+			path = Rehat;
+			sourceTree = "<group>";
+		};
+		C731803A2C1950F500E45746 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C731803B2C1950F500E45746 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C73180422C19569500E45746 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB05F2C294C420080904E /* PersistanceController.swift */,
+				C71AB0602C294C420080904E /* SaveWorld.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C73180432C19569C00E45746 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C72B9EDA2C24318A003D13A6 /* Components */,
+				C75263922C25F45900612DD2 /* Boarding */,
+				C75263B72C27330800612DD2 /* Tutorial */,
+				8A9901BE2C195421007D2888 /* Main */,
+				C72B9EDD2C243CD1003D13A6 /* Rest */,
+				C72B9EEE2C247C51003D13A6 /* Reward */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C73180442C1956B600E45746 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71AB05B2C294C2E0080904E /* CoreData */,
+				C72B9EF12C248F80003D13A6 /* SoundEffect */,
+				8A9901B92C195409007D2888 /* SKScene */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C75263922C25F45900612DD2 /* Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				C75263AE2C25FBFD00612DD2 /* Utils */,
+				C75263952C25F9A300612DD2 /* Components */,
+				C752639C2C25FA2D00612DD2 /* Welcome */,
+				C752639D2C25FA3600612DD2 /* Twenty */,
+			);
+			path = Boarding;
+			sourceTree = "<group>";
+		};
+		C75263952C25F9A300612DD2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C75263AA2C25FACC00612DD2 /* BoardingButton.swift */,
+				C75263AC2C25FAF200612DD2 /* BoardingContent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C752639C2C25FA2D00612DD2 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				C752639E2C25FA7000612DD2 /* WelcomeView.swift */,
+				C75263A02C25FA7900612DD2 /* WelcomeViewModel.swift */,
+				C75263A22C25FA8000612DD2 /* WelcomeEvent.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C752639D2C25FA3600612DD2 /* Twenty */ = {
+			isa = PBXGroup;
+			children = (
+				C75263A42C25FA8E00612DD2 /* TwentyView.swift */,
+				C75263A62C25FA9900612DD2 /* TwentyViewModel.swift */,
+				C75263A82C25FAA000612DD2 /* TwentyEvent.swift */,
+			);
+			path = Twenty;
+			sourceTree = "<group>";
+		};
+		C75263AE2C25FBFD00612DD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C75263AF2C25FC0700612DD2 /* BoardingText.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C75263B42C26FE9100612DD2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C75263B52C26FF0500612DD2 /* RewardItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C75263B72C27330800612DD2 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C75263B82C27331700612DD2 /* Components */,
+				C75263B92C27331E00612DD2 /* Views */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		C75263B82C27331700612DD2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C75263BA2C27341500612DD2 /* TutorialCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C75263B92C27331E00612DD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C75263BC2C2738A900612DD2 /* TutorialOverlay.swift */,
+				C75263BE2C273A3E00612DD2 /* ActionTutorialOverlay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C75263C22C273FD600612DD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C75263C32C273FDD00612DD2 /* MainText.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C75263CE2C28812300612DD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C72B9EDB2C243193003D13A6 /* DefaultButton.swift */,
+				C75263C52C27C22C00612DD2 /* FrogBackground.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C75263CF2C28812800612DD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C75263CC2C2880CB00612DD2 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C75263D02C28813000612DD2 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C75263C92C28806200612DD2 /* PopUpBackground.swift */,
+				C70383192C2A7769001A2FCA /* BouncyStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		C75263D12C2881C800612DD2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C72B9ED82C242F8E003D13A6 /* ReminderOverlay.swift */,
+				C72B9EF42C250E95003D13A6 /* CurrencyView.swift */,
+				C75263D22C2881DB00612DD2 /* AlertOverlay.swift */,
+				8A0F0DC62C2A403F003BB41D /* ConfirmationModal.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C7F01D9D2C288DE800D6EB30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7F01D9E2C288DFF00D6EB30 /* ReminderSmallView.swift */,
+				C7F01DA72C2905E400D6EB30 /* ReminderMediumView.swift */,
+				C70383242C2A834B001A2FCA /* ReminderLargeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7F01DA32C28946A00D6EB30 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7F01DA42C28947900D6EB30 /* IntentButton.swift */,
+				C703831D2C2A7F8B001A2FCA /* IconButton.swift */,
+				C70383202C2A7FCB001A2FCA /* ImageButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC39E8D72C27D35B00AE2F6A /* Lumi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39E9032C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch App" */;
+			buildPhases = (
+				AC39E8D42C27D35B00AE2F6A /* Sources */,
+				AC39E8D52C27D35B00AE2F6A /* Frameworks */,
+				AC39E8D62C27D35B00AE2F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lumi Watch App";
+			productName = "Lumi Watch App";
+			productReference = AC39E8D82C27D35B00AE2F6A /* Lumi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC39E8E62C27D35C00AE2F6A /* Lumi Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39E9042C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch AppTests" */;
+			buildPhases = (
+				AC39E8E32C27D35C00AE2F6A /* Sources */,
+				AC39E8E42C27D35C00AE2F6A /* Frameworks */,
+				AC39E8E52C27D35C00AE2F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC39E8E92C27D35C00AE2F6A /* PBXTargetDependency */,
+			);
+			name = "Lumi Watch AppTests";
+			productName = "Lumi Watch AppTests";
+			productReference = AC39E8E72C27D35C00AE2F6A /* Lumi Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC39E8F02C27D35C00AE2F6A /* Lumi Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC39E9052C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch AppUITests" */;
+			buildPhases = (
+				AC39E8ED2C27D35C00AE2F6A /* Sources */,
+				AC39E8EE2C27D35C00AE2F6A /* Frameworks */,
+				AC39E8EF2C27D35C00AE2F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC39E8F32C27D35C00AE2F6A /* PBXTargetDependency */,
+			);
+			name = "Lumi Watch AppUITests";
+			productName = "Lumi Watch AppUITests";
+			productReference = AC39E8F12C27D35C00AE2F6A /* Lumi Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C71577DB2C2128810023FC41 /* ReminderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71577F02C2128820023FC41 /* Build configuration list for PBXNativeTarget "ReminderExtension" */;
+			buildPhases = (
+				C71577D82C2128810023FC41 /* Sources */,
+				C71577D92C2128810023FC41 /* Frameworks */,
+				C71577DA2C2128810023FC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReminderExtension;
+			productName = ReminderExtension;
+			productReference = C71577DC2C2128810023FC41 /* ReminderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C73180302C1950F300E45746 /* Rehat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C731803F2C1950F500E45746 /* Build configuration list for PBXNativeTarget "Rehat" */;
+			buildPhases = (
+				C731802D2C1950F300E45746 /* Sources */,
+				C731802E2C1950F300E45746 /* Frameworks */,
+				C731802F2C1950F300E45746 /* Resources */,
+				C71577B82C20A64E0023FC41 /* Embed Foundation Extensions */,
+				AC39E8FC2C27D35C00AE2F6A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71577EC2C2128820023FC41 /* PBXTargetDependency */,
+				AC39E8FA2C27D35C00AE2F6A /* PBXTargetDependency */,
+			);
+			name = Rehat;
+			productName = Rehat;
+			productReference = C73180312C1950F300E45746 /* Rehat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73180292C1950F300E45746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC39E8D72C27D35B00AE2F6A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AC39E8E62C27D35C00AE2F6A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC39E8D72C27D35B00AE2F6A;
+					};
+					AC39E8F02C27D35C00AE2F6A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC39E8D72C27D35B00AE2F6A;
+					};
+					C71577DB2C2128810023FC41 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C73180302C1950F300E45746 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C731802C2C1950F300E45746 /* Build configuration list for PBXProject "Rehat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73180282C1950F300E45746;
+			productRefGroup = C73180322C1950F300E45746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73180302C1950F300E45746 /* Rehat */,
+				C71577DB2C2128810023FC41 /* ReminderExtension */,
+				AC39E8D72C27D35B00AE2F6A /* Lumi Watch App */,
+				AC39E8E62C27D35C00AE2F6A /* Lumi Watch AppTests */,
+				AC39E8F02C27D35C00AE2F6A /* Lumi Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC39E8D62C27D35B00AE2F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39E8E22C27D35C00AE2F6A /* Preview Assets.xcassets in Resources */,
+				AC8F70652C2BCA29008C1021 /* FrogsSound.mp3 in Resources */,
+				AC39E8DF2C27D35C00AE2F6A /* Assets.xcassets in Resources */,
+				C71AB0832C29D2BA0080904E /* ClockTick.mp3 in Resources */,
+				C740233E2C2BB6BD00EF1AF1 /* Tick.mp3 in Resources */,
+				C7A7E8212C2BAFF6004FA9CC /* FrogSound.mp3 in Resources */,
+				C7A7E81F2C2BAFEA004FA9CC /* TickSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8E52C27D35C00AE2F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F70662C2BCA29008C1021 /* FrogsSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8EF2C27D35C00AE2F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F70672C2BCA29008C1021 /* FrogsSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71577DA2C2128810023FC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71577E92C2128820023FC41 /* Assets.xcassets in Resources */,
+				AC8F70642C2BCA29008C1021 /* FrogsSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C731802F2C1950F300E45746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71578432C23F5EC0023FC41 /* Actions.sks in Resources */,
+				C731803C2C1950F500E45746 /* Preview Assets.xcassets in Resources */,
+				C71AB0532C2924900080904E /* FrogSound.mp3 in Resources */,
+				C73180392C1950F500E45746 /* Assets.xcassets in Resources */,
+				C71AB0582C294BB20080904E /* GameScene.sks in Resources */,
+				C74023402C2BC36B00EF1AF1 /* Kwebek.mp3 in Resources */,
+				C72B9EF32C248F89003D13A6 /* ClockTick.mp3 in Resources */,
+				C71578422C23F5EC0023FC41 /* StoreScene.sks in Resources */,
+				C7A7E81D2C2BAFDF004FA9CC /* TickSound.mp3 in Resources */,
+				AC8F70632C2BCA29008C1021 /* FrogsSound.mp3 in Resources */,
+				C70383232C2A805A001A2FCA /* Assets.xcassets in Resources */,
+				C71578402C23F5EC0023FC41 /* ChallengeScene.sks in Resources */,
+				C740233C2C2BB6B900EF1AF1 /* Tick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC39E8D42C27D35B00AE2F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39E90D2C27DEC200AE2F6A /* ColorSetting.swift in Sources */,
+				C71AB06C2C29897A0080904E /* ReminderStatus.swift in Sources */,
+				C71AB0762C29C42D0080904E /* AppViewModel.swift in Sources */,
+				AC39E9282C28D1BB00AE2F6A /* TimerRest.swift in Sources */,
+				C71AB06F2C29B8CF0080904E /* HomeViewModel.swift in Sources */,
+				AC39E9212C28728A00AE2F6A /* LookAround.swift in Sources */,
+				AC39E92D2C28D4A800AE2F6A /* Reward.swift in Sources */,
+				AC39E90A2C27D8BB00AE2F6A /* CustomizeButton.swift in Sources */,
+				AC39E9072C27D39500AE2F6A /* HomeView.swift in Sources */,
+				AC39E9182C28011F00AE2F6A /* RestIn.swift in Sources */,
+				C71AB07D2C29C9A40080904E /* RestEvent.swift in Sources */,
+				C71AB0712C29B9030080904E /* HomeEvent.swift in Sources */,
+				C71AB07F2C29CB890080904E /* RestView.swift in Sources */,
+				AC39E91A2C28036000AE2F6A /* CustomizeReminderButton.swift in Sources */,
+				C71AB0792C29C9630080904E /* RestViewModel.swift in Sources */,
+				C71AB0732C29B9570080904E /* ReminderDefaults.swift in Sources */,
+				AC39E91C2C286F6900AE2F6A /* ReminderText.swift in Sources */,
+				AC39E8DD2C27D35B00AE2F6A /* ContentView.swift in Sources */,
+				AC39E9232C28C78200AE2F6A /* RestButton.swift in Sources */,
+				AC39E8DB2C27D35B00AE2F6A /* LumiApp.swift in Sources */,
+				C71AB06B2C297DC60080904E /* ReminderWCDelegate.swift in Sources */,
+				C703832A2C2ABF2D001A2FCA /* NotificationManager.swift in Sources */,
+				C71AB07B2C29C9960080904E /* RestSection.swift in Sources */,
+				AC39E9142C27F89200AE2F6A /* ButtonStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8E32C27D35C00AE2F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39E8EC2C27D35C00AE2F6A /* Lumi_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC39E8ED2C27D35C00AE2F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC39E8F62C27D35C00AE2F6A /* Lumi_Watch_AppUITests.swift in Sources */,
+				AC39E8F82C27D35C00AE2F6A /* Lumi_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71577D82C2128810023FC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C715781A2C22E1F90023FC41 /* ReminderAttributesExtension.swift in Sources */,
+				C70383222C2A7FCB001A2FCA /* ImageButton.swift in Sources */,
+				C7F01DA82C2905E400D6EB30 /* ReminderMediumView.swift in Sources */,
+				8A2BC8822C251B7400544892 /* AppGroupManager.swift in Sources */,
+				C71578172C22E1160023FC41 /* ReminderAttributes.swift in Sources */,
+				C71578082C2211990023FC41 /* ReminderEntry.swift in Sources */,
+				C70383262C2A834B001A2FCA /* ReminderLargeView.swift in Sources */,
+				C715780B2C2211BB0023FC41 /* ReminderStatus.swift in Sources */,
+				C71578202C22F08D0023FC41 /* ReminderLAIntent.swift in Sources */,
+				C71578072C2211970023FC41 /* ReminderProvider.swift in Sources */,
+				C703831F2C2A7F8B001A2FCA /* IconButton.swift in Sources */,
+				C7F01DA02C288ECF00D6EB30 /* DefaultButton.swift in Sources */,
+				C7F01DA12C2891D600D6EB30 /* ReminderSmallView.swift in Sources */,
+				C72B9EE92C24487C003D13A6 /* NotificationManager.swift in Sources */,
+				C71578232C2338590023FC41 /* ReminderTask.swift in Sources */,
+				C7F01DA52C28947900D6EB30 /* IntentButton.swift in Sources */,
+				C7F01D9C2C288D6F00D6EB30 /* DateExtension.swift in Sources */,
+				C71577E32C2128810023FC41 /* ReminderLiveActivity.swift in Sources */,
+				C71577E12C2128810023FC41 /* ReminderBundle.swift in Sources */,
+				C71578092C22119C0023FC41 /* ReminderIntent.swift in Sources */,
+				C75263B12C2601F000612DD2 /* BoardingDefaults.swift in Sources */,
+				C71AB0502C2919D60080904E /* StartStopButton.swift in Sources */,
+				C715781D2C22E6F10023FC41 /* ReminderLAManager.swift in Sources */,
+				C71578062C2211840023FC41 /* ReminderWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C731802D2C1950F300E45746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F01DA92C29093A00D6EB30 /* ReminderMediumView.swift in Sources */,
+				C72B9ED92C242F8E003D13A6 /* ReminderOverlay.swift in Sources */,
+				C75263C62C27C22C00612DD2 /* FrogBackground.swift in Sources */,
+				C75263BF2C273A3E00612DD2 /* ActionTutorialOverlay.swift in Sources */,
+				C75263AB2C25FACC00612DD2 /* BoardingButton.swift in Sources */,
+				C715784E2C23F6510023FC41 /* GameScene.swift in Sources */,
+				C75263AD2C25FAF200612DD2 /* BoardingContent.swift in Sources */,
+				C70383252C2A834B001A2FCA /* ReminderLargeView.swift in Sources */,
+				C71578162C22E1160023FC41 /* ReminderAttributes.swift in Sources */,
+				C715784D2C23F6510023FC41 /* MainView.swift in Sources */,
+				C703831E2C2A7F8B001A2FCA /* IconButton.swift in Sources */,
+				C71578222C2338590023FC41 /* ReminderTask.swift in Sources */,
+				C70383212C2A7FCB001A2FCA /* ImageButton.swift in Sources */,
+				C752639F2C25FA7000612DD2 /* WelcomeView.swift in Sources */,
+				C71577FB2C21F5200023FC41 /* ReminderStatus.swift in Sources */,
+				C72B9EE12C243DDB003D13A6 /* RestViewModel.swift in Sources */,
+				C7F01DA22C28924600D6EB30 /* ReminderSmallView.swift in Sources */,
+				C75263B32C2607E100612DD2 /* AppViewModel.swift in Sources */,
+				C71578562C23F6680023FC41 /* StorePopup.swift in Sources */,
+				C71AB0512C2919EC0080904E /* StartStopButton.swift in Sources */,
+				C72B9EDF2C243DD3003D13A6 /* RestView.swift in Sources */,
+				C72B9EF02C247C5C003D13A6 /* RewardView.swift in Sources */,
+				C71578522C23F6510023FC41 /* GestureHandling.swift in Sources */,
+				C715779C2C2024750023FC41 /* NotificationManager.swift in Sources */,
+				C715781F2C22F08D0023FC41 /* ReminderLAIntent.swift in Sources */,
+				C703831C2C2A792E001A2FCA /* AppDelegate.swift in Sources */,
+				C715784F2C23F6510023FC41 /* SpriteKitView.swift in Sources */,
+				C75263D32C2881DB00612DD2 /* AlertOverlay.swift in Sources */,
+				C75263B62C26FF0500612DD2 /* RewardItem.swift in Sources */,
+				AC39E9312C2A65F700AE2F6A /* ModelGua.xcdatamodeld in Sources */,
+				C75263B02C25FC0700612DD2 /* BoardingText.swift in Sources */,
+				C75263A92C25FAA000612DD2 /* TwentyEvent.swift in Sources */,
+				C72B9EE82C2440AE003D13A6 /* RestCircleButton.swift in Sources */,
+				C715784C2C23F6510023FC41 /* ScreenShot.swift in Sources */,
+				C75263C12C273E8400612DD2 /* TutorialSection.swift in Sources */,
+				C71578192C22E1F90023FC41 /* ReminderAttributesExtension.swift in Sources */,
+				C71577F12C2128E10023FC41 /* ReminderLiveActivity.swift in Sources */,
+				C715781C2C22E6F10023FC41 /* ReminderLAManager.swift in Sources */,
+				C71AB0612C294C420080904E /* PersistanceController.swift in Sources */,
+				C72B9EF52C250E95003D13A6 /* CurrencyView.swift in Sources */,
+				C71578512C23F6510023FC41 /* ChallengeScene.swift in Sources */,
+				C75263A52C25FA8E00612DD2 /* TwentyView.swift in Sources */,
+				C71AB0692C297C140080904E /* ReminderWCDelegate.swift in Sources */,
+				C75263BD2C2738A900612DD2 /* TutorialOverlay.swift in Sources */,
+				C72B9EE52C243ECF003D13A6 /* RestSection.swift in Sources */,
+				8A0F0DC72C2A403F003BB41D /* ConfirmationModal.swift in Sources */,
+				C71578532C23F6510023FC41 /* Currency.swift in Sources */,
+				C75263C42C273FDD00612DD2 /* MainText.swift in Sources */,
+				C71AB0622C294C420080904E /* SaveWorld.swift in Sources */,
+				8A2BC8812C251B2100544892 /* AppGroupManager.swift in Sources */,
+				C72B9EDC2C243193003D13A6 /* DefaultButton.swift in Sources */,
+				C75263A72C25FA9900612DD2 /* TwentyViewModel.swift in Sources */,
+				C703832C2C2ADBD3001A2FCA /* HapticManager.swift in Sources */,
+				C75263CD2C2880CB00612DD2 /* ViewExtension.swift in Sources */,
+				C703831A2C2A7769001A2FCA /* BouncyStyle.swift in Sources */,
+				C75263942C25F51300612DD2 /* BoardingDefaults.swift in Sources */,
+				C73180352C1950F300E45746 /* RehatApp.swift in Sources */,
+				C75263CA2C28806200612DD2 /* PopUpBackground.swift in Sources */,
+				C75263A12C25FA7900612DD2 /* WelcomeViewModel.swift in Sources */,
+				C72B9ED52C2428E6003D13A6 /* MainViewModel.swift in Sources */,
+				C7F01D9B2C288D6C00D6EB30 /* DateExtension.swift in Sources */,
+				C7F01DA62C2894D900D6EB30 /* IntentButton.swift in Sources */,
+				C72B9EE32C243E10003D13A6 /* RestEvent.swift in Sources */,
+				C72B9ED72C24293D003D13A6 /* MainEvent.swift in Sources */,
+				C75263A32C25FA8000612DD2 /* WelcomeEvent.swift in Sources */,
+				C75263BB2C27341500612DD2 /* TutorialCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC39E8E92C27D35C00AE2F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC39E8D72C27D35B00AE2F6A /* Lumi Watch App */;
+			targetProxy = AC39E8E82C27D35C00AE2F6A /* PBXContainerItemProxy */;
+		};
+		AC39E8F32C27D35C00AE2F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC39E8D72C27D35B00AE2F6A /* Lumi Watch App */;
+			targetProxy = AC39E8F22C27D35C00AE2F6A /* PBXContainerItemProxy */;
+		};
+		AC39E8FA2C27D35C00AE2F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC39E8D72C27D35B00AE2F6A /* Lumi Watch App */;
+			targetProxy = AC39E8F92C27D35C00AE2F6A /* PBXContainerItemProxy */;
+		};
+		C71577EC2C2128820023FC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71577DB2C2128810023FC41 /* ReminderExtension */;
+			targetProxy = C71577EB2C2128820023FC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC39E8FD2C27D35C00AE2F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lumi-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Lumi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.twilight.Rehat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		AC39E8FE2C27D35C00AE2F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lumi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lumi-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Lumi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.twilight.Rehat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		AC39E8FF2C27D35C00AE2F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilight.Lumi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		AC39E9002C27D35C00AE2F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilight.Lumi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		AC39E9012C27D35C00AE2F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilight.Lumi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Lumi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		AC39E9022C27D35C00AE2F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twilight.Lumi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Lumi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C71577EE2C2128820023FC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ReminderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Reminder;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat.Reminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71577EF2C2128820023FC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ReminderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reminder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Reminder;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat.Reminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C731803D2C1950F500E45746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C731803E2C1950F500E45746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73180402C1950F500E45746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rehat/Rehat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rehat/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rehat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lumi;
+				INFOPLIST_KEY_NSCameraUsageDescription = Used;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Used;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C73180412C1950F500E45746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rehat/Rehat.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rehat/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SU889K9XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rehat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lumi;
+				INFOPLIST_KEY_NSCameraUsageDescription = Used;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Used;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twilight.Rehat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC39E9032C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39E8FD2C27D35C00AE2F6A /* Debug */,
+				AC39E8FE2C27D35C00AE2F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39E9042C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39E8FF2C27D35C00AE2F6A /* Debug */,
+				AC39E9002C27D35C00AE2F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC39E9052C27D35C00AE2F6A /* Build configuration list for PBXNativeTarget "Lumi Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC39E9012C27D35C00AE2F6A /* Debug */,
+				AC39E9022C27D35C00AE2F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71577F02C2128820023FC41 /* Build configuration list for PBXNativeTarget "ReminderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71577EE2C2128820023FC41 /* Debug */,
+				C71577EF2C2128820023FC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C731802C2C1950F300E45746 /* Build configuration list for PBXProject "Rehat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C731803D2C1950F500E45746 /* Debug */,
+				C731803E2C1950F500E45746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C731803F2C1950F500E45746 /* Build configuration list for PBXNativeTarget "Rehat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73180402C1950F500E45746 /* Debug */,
+				C73180412C1950F500E45746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC39E92E2C2A65F700AE2F6A /* ModelGua.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC39E9302C2A65F700AE2F6A /* ModelGua.xcdatamodel */,
+			);
+			currentVersion = AC39E9302C2A65F700AE2F6A /* ModelGua.xcdatamodel */;
+			path = ModelGua.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C73180292C1950F300E45746 /* Project object */;
+}
